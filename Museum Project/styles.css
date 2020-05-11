@@ -1,0 +1,71 @@
+/* Note: fix image sizes */
+
+body {
+    /* choose a custom color */
+    background: green;
+    /* font-family:  */
+}
+
+.blurb h2 {
+    color: lightsteelblue;
+    font-weight: 100;
+    font-size: 2.5rem;
+}
+
+.blurb p {
+    /* choose custom color */
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 2.0;
+}
+
+.content {
+    margin-bottom: 100px;
+}
+
+#mainNavbar .navbar-brand {
+    /* choose a custom color */
+    color: yellow;
+    
+}
+
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+#mainNavbar .nav-link {
+    color: white;
+}
+
+#mainNavbar .nav-link:hover {
+    color: yellow;
+}
+
+#headingGroup span {
+    color: lightsteelblue;
+}
+
+#headingGroup h1 {
+    font-weight: 100;
+    font-size: 4.0rem;
+}
+
+.navbar.scrolled {
+    background: blue;
+    transition: background 500ms;
+}
+
+@media (max-width: 1500px) {
+    #headingGroup h1 {
+        font-weight: 100;
+        font-size: 3.0rem;
+    }
+}
+
+@media (max-width: 1180px) {
+    #headingGroup h1 {
+        font-weight: 100;
+        font-size: 2.5rem;
+    }
+}
